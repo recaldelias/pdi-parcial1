@@ -180,7 +180,7 @@ end
 function a= acumulativo(q, histo, LL, UP)
     a=0;
     for i=LL:q
-        a= a + pdf(q, histo, LL, UP);
+        a= a + pdf(i, histo, LL, UP);
     end
 end
 
